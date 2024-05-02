@@ -1,0 +1,51 @@
+Experiment 1
+
+Experiment 1: Write the steps to install and implement NOSQL databases MongoDB.
+
+MongoDB Download and Installation Steps:
+
+Step 1) Installing MongoDB
+Open your browser and type https://www.mongodb.com/try/download/community
+ 
+
+Step 2) Click on “Download” button.
+ 
+Step 3) When the download is complete open the msi file and click the next button in the startup screen:
+ 
+Step 4) Now accept the End-User License Agreement and click the next button:
+ 
+Step 5) Now select the complete option to install all the program features.
+ 
+Step 6) Select “Run service as Network Service user” and copy the path of the data directory. Click Next:
+ 
+Step 7) Click the Install button to start the MongoDB installation process:
+ 
+Step 8) After clicking on the install button installation of MongoDB begins:
+ 
+Step 9) Now click the Finish button to complete the MongoDB installation process
+Step 10) Now we go to the location where MongoDB installed in step 6 in your system and copy the bin path:
+ 
+Step 11) Create Environment Variable.
+To create an environment variable open system properties << Environment Variable << System variable << path << Edit Environment variable and paste the copied link to your environment system and click Ok:
+ 
+Step 12) Running MongoDB Server
+After setting the environment variable, we will run the MongoDB server, i.e. mongod.  So, open the command prompt and run the following command:
+ mongod
+When you run this command you will get an error i.e. C:/data/db/ not found. 
+Step 12: Now, Open C drive and create a folder named “data” inside this folder create another folder named “db”. After creating these folders. Again open the command prompt and run the following command:
+ mongod
+Now, this time the MongoDB server(i.e., mongod) will run successfully.
+ 
+Step 13) Running mongo Shell
+Now we are going to connect our server (mongod) with the mongo shell. So, keep that mongod window and open a new command prompt window and write mongo. Now, our mongo shell will successfully connect to the mongod.
+Important Point: Please do not close the mongod window if you close this window your server will stop working and it will not able to connect with the mongo shell.
+ 
+Now, you are ready to write queries in the mongo Shell.
+Step 14) Run MongoDB
+Now you can make a new database, collections, and documents in your shell. The use Database_name command makes a new database in the system if it does not exist, if the database exists it uses that database:
+use gfg
+Now your database is ready of name gfg.
+The db.Collection_name command makes a new collection in the gfg database and the insertOne() method inserts the document in the student collection:
+db.student.insertOne({Akshay:500})
+ 
+Learning outcome of the Program:
