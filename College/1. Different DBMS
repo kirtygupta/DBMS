@@ -86,3 +86,252 @@ Resource Intensive - SQL Server can be resource-intensive, especially in terms o
 Learning Curve for Advanced Features - Advanced features like Always on Availability Groups and certain business intelligence tools may have a steeper learning curve.
 
 '''
+EXPERIMENT - 1
+AIM: - STUDY AND PRACTICE VARIOUS DATABASE MANAGEMENT 
+SYSTEMS LIKE MYSQL / ORACLE / POSTGRE SQL/ SQL SERVER AND 
+MONGO DB.
+THEORY: -
+A Database Management System (DBMS) is a software system that allows users to create, 
+maintain, and manage databases. It provides an interface between the end-user and the 
+database, enabling users to create, read, update, and delete data in the database. Some popular 
+databases are MySQL, Oracle, MongoDB, etc. DBMS provides many operations such as 
+creating a database, storing in the database, updating an existing database, and deleting from 
+the database. DBMS is a system that enables you to store, modify, and retrieve data in an 
+organized way. It also provides security to the database. In this Database Management System 
+tutorial, you’ll learn basic to advanced topics like ER model, Relational Model, Relation 
+Algebra, Normalization, File Organization, etc.
+MySQL:
+MySQL is an open-source 
+relational database management 
+system (RDBMS) that enables 
+users to store, manage, and 
+retrieve structured data 
+efficiently. It is widely used for 
+various applications, from 
+small-scale projects to largescale websites and enterpriselevel solutions. MySQL offers 
+various features and solutions 
+for different scenarios, such as 
+data warehousing, data lakes, 
+machine learning, and cloud applications. MySQL is available in different editions, including 
+MySQL Heat Wave, Enterprise Edition, Cluster CGE, and other products and services.
+FEATURES OF MySQL :
+Open Source - MySQL is freely available and open-source, allowing users to view, modify, 
+and distribute the source code as per the terms of the GNU General Public License (GPL).
+Cross-Platform Compatibility - MySQL is designed to run on various operating systems, 
+including Linux, Windows, macOS, and others, providing flexibility and ease of deployment.
+Ease of Use - MySQL is known for its user-friendly interface and ease of use. Tools like 
+MySQL Workbench provide a graphical environment for managing databases.
+Scalability - MySQL supports both vertical and horizontal scaling, making it suitable for 
+small projects as well as large-scale applications with high traffic.
+1.3
+KIRTY GUPTA
+ADVANTAGES :
+Faster Query Processing – Large amount of data is retrieved quickly and efficiently.
+Operations like Insertion, deletion, manipulation of data is also done in almost no time.
+No Coding Skills – For data retrieval, large number of lines of code is not required. All basic
+keywords such as SELECT, INSERT INTO, UPDATE are used and also the syntactical rules
+are not complex in SQL, which makes it a user-friendly language.
+Standardized Language – Due to documentation and long establishment over years, it
+provides a uniform platform worldwide to all its users.
+Portable – It can be used in programs in PCs, server, laptops independent of any platform
+(Operating System,). Also, it can be embedded with other applications as per
+need/requirement/use.
+DISADVANTAGES :
+Limited Support for Complex Transactions - MySQL may not be the best choice for 
+applications that require complex transactions and full ACID compliance, as it may face 
+limitations compared to some other relational database management systems (RDBMS).
+Lack of Features in Earlier Versions - Older versions of MySQL lacked some advanced 
+features compared to other database systems. However, many of these limitations have been 
+addressed in recent versions.
+Default Configuration Can Be Insecure - The default configuration of MySQL may not be as 
+secure as needed for production environments. Proper configuration and security measures 
+must be implemented to safeguard against potential vulnerabilities.
+Limited Support for NoSQL Features- While MySQL is primarily a relational database, it has 
+introduced some support for NoSQL features in recent versions. However, it may not be as 
+feature-rich as dedicated NoSQL databases for certain use cases.
+ORACLE
+Oracle Database Management System 
+(DBMS) is a software system that allows 
+users to create, maintain, and manage 
+databases. It provides an interface between 
+the end-user and the database, enabling 
+users to create, read, update, and delete 
+data in the database. Oracle DBMS is 
+known for its portability as it can be easily 
+ported to different platforms than its 
+competition. It runs on almost 20 
+networking protocols and more than 100 
+hardware platforms. Oracle DBMS is also known for its backup and recovery features.
+FEATURES OF ORACLE :
+High Availability - Oracle provides features like Oracle Real Application Clusters (RAC) and 
+Data Guard for ensuring high availability, fault tolerance, and disaster recovery.
+1.4
+KIRTY GUPTA
+Scalability - Oracle Database is designed to scale vertically and horizontally, making it suitable 
+for both small-scale applications and large enterprise systems.
+ACID Compliance - Oracle follows the ACID properties (Atomicity, Consistency, Isolation, 
+Durability), ensuring reliable and transactionally consistent data.
+Multitenancy Support - Oracle supports multitenant architecture, allowing multiple pluggable 
+databases (PDBs) to be managed within a single container database (CDB).
+ADVANTAGES :
+Robust and scalable -Oracle is known for its robustness and scalability, making it suitable for 
+large-scale enterprise applications with high transaction volumes.
+Acid compliance-Oracle ensures full ACID (Atomicity, Consistency, Isolation, Durability) 
+compliance, providing a high level of data integrity and reliability.
+Comprehensive feature set-Oracle offers a wide range of features, including partitioning, 
+clustering, online analytical processing (OLAP), and advanced security features, making it 
+versatile for various application requirements 
+high performance-Oracle Database is optimized for high performance, and it includes features 
+like caching, indexing, and query optimization to enhance data retrieval speed.
+DISADVANTAGES :
+Cost- Oracle Database is known for its high licensing and maintenance costs, which can be a 
+significant factor for smaller businesses or projects with budget constraints.
+Complexity- The advanced feature set of Oracle can lead to a steeper learning curve and 
+increased complexity, especially for users new to the system.
+Resource- Oracle databases may consume more system resources compared to some other 
+database systems, potentially impacting the performance of less powerful hardware.
+Propriety software- Oracle is proprietary software, and its source code is not open to the 
+public. This limits customization options and may pose challenges for organizations seeking 
+complete control over their database system.
+POSTGRE SQL
+PostgreSQL is an open-source 
+object-relational database system 
+that has been under active 
+development for over 35 years 1. It 
+is known for its reliability, feature 
+robustness, and performance. 
+PostgreSQL is available for 
+download on various platforms, 
+including Linux, mac OS, 
+Windows, BSD, and Solaris. 
+PostgreSQL is a powerful database 
+management system that supports a 
+wide range of features, including ACID transactions, multi-version concurrency control, table 
+inheritance, foreign keys, triggers, and stored procedures. 
+FEATURES OF POSTGRE SQL:
+1.5
+KIRTY GUPTA
+Open source- PostgreSQL is open-source and free to use, allowing users to view, modify, and 
+distribute the source code.
+Acid compliance- PostgreSQL follows ACID properties (Atomicity, Consistency, Isolation, 
+Durability), ensuring data integrity and reliability.
+Extensibility- PostgreSQL allows users to define their data types, operators, functions, and 
+aggregates, making it highly extensible.
+Support for complex data types- Besides standard SQL types, PostgreSQL supports complex 
+data types like arrays, store (key-value pairs), JSON, and XML.
+ADVANTAGES :
+Open source licensing - Being open-source, PostgreSQL offers cost savings as there are no 
+licensing fees.
+Extensive document - PostgreSQL has comprehensive and well-maintained documentation, 
+making it easy for users to learn and troubleshoot.
+Cross-platform compatibility - PostgreSQL is available for various operating systems, 
+including Linux, Windows, and macOS, ensuring cross-platform compatibility.
+Scalablity - It is designed to scale horizontally and vertically, making it suitable for both small 
+projects and large, high-traffic applications.
+DISADVANTAGES :
+Performance- In certain scenarios, PostgreSQL may have slightly lower performance 
+compared to some other databases, particularly in high-write scenarios.
+Complexity for novice users- The extensive feature set and configurability can make 
+PostgreSQL seem complex, especially for users new to database administration.
+Learning curve- Due to its advanced features, there might be a steeper learning curve for users 
+transitioning from simpler database systems.
+Enterprise features in commercial versions- Some advanced enterprise features are available 
+in the commercial version, and organizations may need to purchase additional support.
+SQL SERVER
+SQL Server, also known as MS SQL 
+Server or Microsoft SQL Server, is a 
+relational database management system 
+(RDBMS). It’s a program that saves 
+database information and runs SQL 
+commands and queries to alter a 
+relational database. Furthermore, it 
+manages and executes all database 
+activities. Microsoft created SQL Server 
+in 1989 for business purposes. It is 
+proprietary software written in the C and 
+C++ programming languages. T-SQL 
+(Transact Structured Query Language) is a different type of SQL that is nearly identical to 
+SQL, with minor differences in query syntax.
+FEATURES OF SQL SERVER :
+1.6
+KIRTY GUPTA
+Comprehensive Feature Set - SQL Server offers a wide range of features, including data 
+warehousing, business intelligence, data analysis, and support for advanced analytics.
+Integration Services (SSIS) - SQL Server Integration Services (SSIS) allows the creation of 
+data integration and ETL (Extract, Transform, Load) processes.
+Reporting Services (SSRS) - SQL Server Reporting Services (SSRS) provides tools for 
+creating, managing, and delivering various types of reports.
+Analysis Services (SSAS) - SQL Server Analysis Services (SSAS) supports online analytical 
+processing (OLAP) and data mining functionalities.
+ADVANTAGES :
+Integration with Microsoft Ecosystem - SQL Server seamlessly integrates with other 
+Microsoft products and services, providing a unified environment for development and 
+deployment.
+Ease of Use - SQL Server Management Studio (SSMS) provides a user-friendly interface for 
+database management, making it relatively easy for administrators and developers to work 
+with.
+Strong Community and Support - SQL Server has a strong community, and Microsoft 
+provides extensive documentation, support forums, and regular updates.
+Robust Development Tools - SQL Server comes with powerful development tools, including 
+SQL Server Data Tools (SSDT) for database development.
+DISADVANTAGES :
+Licensing Costs - SQL Server can be relatively expensive, especially for larger enterprises, as 
+it is not open source, and licensing costs can add up.
+Limited Cross-Platform Compatibility - While there is some level of cross-platform 
+compatibility, SQL Server is primarily designed for the Windows operating system, limiting 
+its use in mixed-platform environments.
+Resource Intensive - SQL Server can be resource-intensive, especially in terms of memory 
+and disk space, which may impact performance on systems with limited resources.
+Learning Curve for Advanced Features - Advanced features like Always on Availability 
+Groups and certain business intelligence tools may have a steeper learning curve.
+MONGO DB
+MongoDB is a source-available, crossplatform, document-oriented database 
+program. Classified as a NoSQL 
+database product, MongoDB utilizes 
+JSON-like documents with optional 
+schemas. MongoDB is developed by 
+MongoDB Inc. and current versions 
+are licensed under the Server Side 
+Public License (SSPL). MongoDB is a 
+member of the MACH Alliance. 
+MongoDB handles both organized and 
+unstructured data across diverse 
+1.7
+KIRTY GUPTA
+applications. It seamlessly integrates with other popular programming languages and adapts to 
+different tech environments without much effort.
+FEATURES OF MongoDB :
+NoSQL Database - MongoDB is a NoSQL database, which means it is designed to handle 
+unstructured or semi-structured data, providing greater flexibility than traditional relational 
+databases.
+Document-Oriented - MongoDB stores data in a flexible, JSON-like format called BSON 
+(Binary JSON), allowing for easy storage of nested structures and arrays.
+Schema-less - MongoDB is schema-less, meaning there is no need to define a rigid schema 
+beforehand. This allows for dynamic changes to the data structure.
+Horizontal Scalability - MongoDB can scale horizontally by sharding data across multiple 
+servers, making it suitable for large and distributed systems.
+ADVANTAGES :
+Flexible Schema - The schema-less nature of MongoDB allows for easy adaptation to evolving 
+application requirements without the need for a predefined schema.
+Scalability - MongoDB's horizontal scaling and automatic sharding make it highly scalable, 
+suitable for handling large amounts of data and high traffic.
+Document-Oriented Model - The document-oriented data model is well-suited for 
+representing complex relationships and nested structures, making it easy to work with realworld data.
+High Performance - MongoDB is designed for high performance, with features like indexing, 
+query optimization, and horizontal scaling contributing to its efficiency.
+DISADVANTAGES :
+Lack of Transactions Across Documents - MongoDB does not support transactions across 
+multiple documents, which may be a limitation in certain scenarios requiring strict transactional 
+consistency.
+Memory Usage - MongoDB can be memory-intensive, especially when dealing with large 
+datasets, and may require sufficient system resources for optimal performance.
+Learning Curve for Developers New to NoSQL - Developers accustomed to relational 
+databases may experience a learning curve when adapting to the NoSQL and documentoriented paradigm.
+Not Suitable for All Use Cases - While MongoDB is well-suited for certain use cases, it may 
+not be the best choice for applications with complex relational data and heavy transactional 
+requirements.
+
+LEARNING OUTCOMES : -
+• In this experiment , we learnt about different database management systems.
+• Learnt about the features and advantages and disadvantages about different DBMS 
+like MySQL , Oracle, SQL server , MongoDB and PostgreSQL.
